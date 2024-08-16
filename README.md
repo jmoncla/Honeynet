@@ -23,6 +23,6 @@ For this lab, I set up a SOC + Honeynet with the following architecture:
 These are Windows Remote Desktop Failed Authentication logins from across the globe. This data is from the logs of the windows VM I set up and the visualization is through Sentinel Workbooks.<br><br>
 <img src="https://github.com/jmoncla/Honeynet/blob/main/geomaplab.PNG" alt="Geomap Lab Screenshot" width="1000" />
 
-The next step of the project will be to harden Network Security Groups by blocking ALL traffic with the exception of my admin workstation as well as hardening all other resources which will be configured to be protected by their built-in firewalls.<br>
+The next step of the project will be setting up custom rules to generate incidents for particular security events by querying the logs that are being ingested. The last step will be to harden Network Security Groups by blocking ALL traffic with the exception of my admin workstation as well as hardening all other resources which will be configured to be protected by their built-in firewalls.<br>
 I will be able to analyze the metrics before and after hardening and they will be reported in this project later on. 
 
